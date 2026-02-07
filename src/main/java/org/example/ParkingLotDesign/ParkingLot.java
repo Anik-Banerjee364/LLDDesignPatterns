@@ -44,7 +44,7 @@ public class ParkingLot {
             activeTickets.remove(ticketId);
             return fee;
         }
-        System.out.println("Invalid ticket ID: " + ticketId);
-        return 0; // Invalid ticket
+        System.out.println("Invalid ticket ID is: " + ticketId);
+        return 0; // Invalid tickets
     }
 }
